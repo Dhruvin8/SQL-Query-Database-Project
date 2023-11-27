@@ -1,12 +1,8 @@
-#Name: Kuldip Savaliya
-#UTA_ID: 1001832000
-# DB1_Project1_Task2
-
 
 import mysql.connector
 import csv
 
-mydb = mysql.connector.connect(host="acadmysqldb001p", user="kxs2000", password="Kd8490001906#", database="kxs2000")
+mydb = mysql.connector.connect(host="acadmysqldb001p", user="dxn2000", password="dp890#", database="dxn2000")
 mycursor = mydb.cursor()
 print(mydb)
 print(mycursor)
