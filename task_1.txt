@@ -1,4 +1,4 @@
-mysql> use kxs2000
+mysql> use dxn2000
 Database changed
 
 mysql> create table if not exists employee(Fname VARCHAR(100) NOT NULL,Minit VARCHAR(100) NOT NULL,Lname VARCHAR(100) NOT NULL,Ssn INT NOT NULL,Bdate  INT NOT NULL ,Address VARCHAR(100) NOT NULL,Sex VARCHAR(100) NOT NULL,Salary INT NOT NULL,Super_ssn INT NOT NULL);
